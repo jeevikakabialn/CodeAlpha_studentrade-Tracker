@@ -1,0 +1,88 @@
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Studentgrade {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+        for(int i=0;i<=3;i++)
+{
+		// TODO Auto-generated metinhod stub
+		System.out.println("ENTER THE NAME:");
+		ArrayList<String> exam=  new ArrayList<>();
+		 String name=sc.nextLine();
+		
+		System.out.println("Enter the grade:");
+		 String Grade=sc.nextLine();
+
+		
+		switch (Grade) {
+		  case "A+":
+		    System.out.println("Student average is"+ ":" +10);
+		  System.out.println(" highest score");
+		    
+
+		    break;
+		  case "A":
+			    System.out.println("Student average is"+ ":" +9);
+			    System.out.println(" highest score");
+
+			    break;
+		  case "B+":
+			    System.out.println("Student average is"+ ":" +8);
+			    System.out.println(" highest score");
+
+			    break;
+		  case "B":
+			    System.out.println("Student average is"+ ":" +7);
+			    System.out.println(" highest score");
+
+			    break;
+		  case "C+":
+			    System.out.println("Student average is"+ ":" +6);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "C":
+			    System.out.println("Student average is"+ ":" +5);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "D+":
+			    System.out.println("Student average is"+ ":" +4);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "D":
+			    System.out.println("Student average is"+ ":" +3);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "E":
+			    System.out.println("Student average is"+ ":" +2);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "F":
+			    System.out.println("Student average is"+ ":" +1);
+			    System.out.println(" lowest score");
+
+			    break;
+		  case "Gj":
+			    System.out.println("Student average is"+ ":" +0);
+			    System.out.println("lowest score");
+
+			    break;
+			
+		}
+		
+		 
+}
+				
+		}
+
+	
+}
+
